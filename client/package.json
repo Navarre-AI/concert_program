@@ -1,0 +1,21 @@
+{
+  "name": "concert-program-client",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "svelte-spa-router": "^4.0.1"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "svelte": "^5.28.2",
+    "vite": "^6.3.1",
+    "vite-plugin-pwa": "^0.21.1"
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "@date_today": "2026-04-08",
+  "address": "",
+  "invoices": [
+    {
+      "amount_paid": 0,
+      "currency": "USD",
+      "customer_id": "1 5HSOH 1S30N 6FEAP CAUD4",
+      "customer_name": "3D/Environmental",
+      "due_amount": 31449.88,
+      "invoice_amount": 31449.88,
+      "invoice_date": "2026-02-01",
+      "invoice_id": "1001",
+      "invoice_number": 1001,
+      "items": [
+        { "brand": "ProSound", "model": "Echo Studio Microphone", "price": 199.99, "product_category": "Electronics", "quantity": 3 },
+        { "brand": "Columbia", "model": "Men's Silver Ridge Convertible Pants", "price": 60, "product_category": "Clothing", "quantity": 1 },
+        { "brand": "Stellar Forge", "model": "Personal Matter Synthesizer", "price": 14999.99, "product_category": "Manufacturing Devices", "quantity": 2 },
+        { "brand": "PureHydro", "model": "Alkaline Water Pitcher", "price": 39.99, "product_category": "Home Goods", "quantity": 3 },
+        { "brand": "Brooks", "model": "Ghost 13 Running Shoes", "price": 130, "product_category": "Footwear", "quantity": 2 },
+        { "brand": "Blue", "model": "Yeti USB Microphone", "price": 129.99, "product_category": "Electronics", "quantity": 3 },
+        { "brand": "Conair", "model": "Double Ceramic Curling Iron", "price": 19.99, "product_category": "Beauty Products", "quantity": 1 }
+      ],
+      "line_item_count": 7,
+      "status": "posted"
+    }
+  ],
+  "last_contacted_date": "2026-03-10",
+  "notes": [],
+  "org_name": "3D/Environmental",
+  "projects": [
+    {
+      "actual_end_date": "1/1/2024",
+      "billing_rate_usd": 75,
+      "description": "Hit audience prevent area including adult really deep knowledge record response performance blue let east number involve nature.",
+      "project_actual_amount": 5100,
+      "project_budget_amount": 17300,
+      "project_name": "Inventory Management Rollout for 3D/Environmental",
+      "start_date": "12/25/2023",
+      "status": "Complete",
+      "target_end_date": "4/11/2026",
+      "task_array": [
+        {
+          "@type": "Project Task",
+          "actual_complete_date": "4/11/2024",
+          "actual_hours": 56,
+          "actual_start_date": "12/25/2023",
+          "assignment_array": [
+            { "@type": "Task Assignment", "allocated_pct": 25, "date": "", "hours": 0, "notes": "", "person_responsible": "Emazell Cecil", "role": "Owner" },
+            { "@type": "Task Assignment", "allocated_pct": 75, "date": "", "hours": 0, "notes": "", "person_responsible": "Emma Mcclain", "role": "Reviewer" }
+          ],
+          "days_late": 108,
+          "percent_complete": 100,
+          "priority": "Medium",
+          "status": "Done",
+          "sub_task_array": [],
+          "target_due_date": "4/11/2024",
+          "target_hours": 19,
+          "task_name": "Plan marketing content calendar"
+        },
+        {
+          "@type": "Project Task",
+          "actual_complete_date": "",
+          "actual_hours": 0,
+          "actual_start_date": "12/30/2023",
+          "assignment_array": [
+            { "@type": "Task Assignment", "allocated_pct": 25, "date": "", "hours": 0, "notes": "", "person_responsible": "Felipe Lansing", "role": "Owner" },
+            { "@type": "Task Assignment", "allocated_pct": 100, "date": "", "hours": 0, "notes": "", "person_responsible": "George Sawins", "role": "Owner" }
+          ],
+          "days_late": 0,
+          "percent_complete": 0,
+          "priority": "Low",
+          "status": "Blocked",
+          "sub_task_array": [],
+          "target_due_date": "4/1/2024",
+          "target_hours": 29,
+          "task_name": "Organize stakeholder meeting"
+        },
+        {
+          "@type": "Project Task",
+          "actual_complete_date": "4/11/2024",
+          "actual_hours": 92,
+          "actual_start_date": "12/25/2023",
+          "assignment_array": [
+            { "@type": "Task Assignment", "allocated_pct": 100, "date": "", "hours": 0, "notes": "", "person_responsible": "Linda Sparks", "role": "Reviewer" },
+            { "@type": "Task Assignment", "allocated_pct": 100, "date": "", "hours": 0, "notes": "", "person_responsible": "V Heaton", "role": "Reviewer" }
+          ],
+          "days_late": 108,
+          "percent_complete": 100,
+          "priority": "Low",
+          "status": "Done",
+          "sub_task_array": [],
+          "target_due_date": "4/11/2024",
+          "target_hours": 31,
+          "task_name": "Draft homepage wireframes"
+        },
+        {
+          "@type": "Project Task",
+          "actual_complete_date": "",
+          "actual_hours": 0,
+          "actual_start_date": "",
+          "assignment_array": [
+            { "@type": "Task Assignment", "allocated_pct": 50, "date": "", "hours": 0, "notes": "", "person_responsible": "Eleanor Mckerlie", "role": "Owner" },
+            { "@type": "Task Assignment", "allocated_pct": 50, "date": "", "hours": 0, "notes": "", "person_responsible": "Dwain Sidman", "role": "Contributor" },
+            { "@type": "Task Assignment", "allocated_pct": 25, "date": "", "hours": 0, "notes": "", "person_responsible": "Damon Levy", "role": "Contributor" }
+          ],
+          "days_late": 0,
+          "percent_complete": 0,
+          "priority": "Medium",
+          "status": "Canceled",
+          "sub_task_array": [],
+          "target_due_date": "",
+          "target_hours": 22,
+          "task_name": "Set up staging environment"
+        },
+        {
+          "@type": "Project Task",
+          "actual_complete_date": "4/11/2024",
+          "actual_hours": 20,
+          "actual_start_date": "12/25/2023",
+          "assignment_array": [
+            { "@type": "Task Assignment", "allocated_pct": 25, "date": "", "hours": 0, "notes": "", "person_responsible": "Mary Taylor", "role": "Owner" }
+          ],
+          "days_late": 108,
+          "percent_complete": 100,
+          "priority": "Medium",
+          "status": "In Progress",
+          "sub_task_array": [],
+          "target_due_date": "3/6/2024",
+          "target_hours": 15,
+          "task_name": "Data migration dry run"
+        },
+        {
+          "@type": "Project Task",
+          "actual_complete_date": "4/11/2024",
+          "actual_hours": 32,
+          "actual_start_date": "12/25/2023",
+          "assignment_array": [
+            { "@type": "Task Assignment", "allocated_pct": 25, "date": "", "hours": 0, "notes": "", "person_responsible": "Cole Cully", "role": "Contributor" },
+            { "@type": "Task Assignment", "allocated_pct": 100, "date": "", "hours": 0, "notes": "", "person_responsible": "Geraldine Hammond", "role": "Reviewer" }
+          ],
+          "days_late": 108,
+          "percent_complete": 100,
+          "priority": "Medium",
+          "status": "Done",
+          "sub_task_array": [],
+          "target_due_date": "5/29/2024",
+          "target_hours": 27,
+          "task_name": "Conduct safety training session"
+        },
+        {
+          "@type": "Project Task",
+          "actual_complete_date": "4/11/2024",
+          "actual_hours": 5,
+          "actual_start_date": "12/25/2023",
+          "assignment_array": [
+            { "@type": "Task Assignment", "allocated_pct": 25, "date": "", "hours": 0, "notes": "", "person_responsible": "Willie Brooks", "role": "Owner" }
+          ],
+          "days_late": 108,
+          "percent_complete": 100,
+          "priority": "Low",
+          "status": "Done",
+          "sub_task_array": [],
+          "target_due_date": "7/10/2024",
+          "target_hours": 5,
+          "task_name": "Data migration dry run"
+        },
+        {
+          "@type": "Project Task",
+          "actual_complete_date": "4/11/2024",
+          "actual_hours": 32,
+          "actual_start_date": "12/25/2023",
+          "assignment_array": [
+            { "@type": "Task Assignment", "allocated_pct": 100, "date": "", "hours": 0, "notes": "", "person_responsible": "Arnold Mckee", "role": "Contributor" },
+            { "@type": "Task Assignment", "allocated_pct": 75, "date": "", "hours": 0, "notes": "", "person_responsible": "Joan Lowe", "role": "Owner" }
+          ],
+          "days_late": 108,
+          "percent_complete": 100,
+          "priority": "Medium",
+          "status": "In Progress",
+          "sub_task_array": [],
+          "target_due_date": "4/11/2024",
+          "target_hours": 30,
+          "task_name": "Organize stakeholder meeting"
+        },
+        {
+          "@type": "Project Task",
+          "actual_complete_date": "4/11/2024",
+          "actual_hours": 5,
+          "actual_start_date": "12/25/2023",
+          "assignment_array": [
+            { "@type": "Task Assignment", "allocated_pct": 100, "date": "", "hours": 0, "notes": "", "person_responsible": "James Eaton", "role": "Owner" },
+            { "@type": "Task Assignment", "allocated_pct": 25, "date": "", "hours": 0, "notes": "", "person_responsible": "Blanca Derogatis", "role": "Owner" },
+            { "@type": "Task Assignment", "allocated_pct": 25, "date": "", "hours": 0, "notes": "", "person_responsible": "Mary Cox", "role": "Contributor" }
+          ],
+          "days_late": 108,
+          "percent_complete": 100,
+          "priority": "Medium",
+          "status": "In Progress",
+          "sub_task_array": [],
+          "target_due_date": "4/11/2024",
+          "target_hours": 21,
+          "task_name": "Conduct safety training session"
+        },
+        {
+          "@type": "Project Task",
+          "actual_complete_date": "",
+          "actual_hours": 0,
+          "actual_start_date": "",
+          "assignment_array": [
+            { "@type": "Task Assignment", "allocated_pct": 75, "date": "", "hours": 0, "notes": "", "person_responsible": "Willard Kotz", "role": "Reviewer" }
+          ],
+          "days_late": 0,
+          "percent_complete": 0,
+          "priority": "Low",
+          "status": "Canceled",
+          "sub_task_array": [],
+          "target_due_date": "",
+          "target_hours": 32,
+          "task_name": "Draft homepage wireframes"
+        }
+      ],
+      "task_count": 10,
+      "task_total_actual_hours": 242,
+      "task_total_budget_hours": 231,
+      "todays_date": "4/8/2026"
+    }
+  ],
+  "staff": [],
+  "total_due_usd": 31449.88,
+  "total_invoiced_usd": 31449.88,
+  "total_paid_usd": 0
+}

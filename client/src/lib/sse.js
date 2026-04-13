@@ -1,22 +1,42 @@
+import { subscribe as subscribeDemo } from './demo-bus.js';
+
 export function connectLiveStream(concertId, onEvent) {
-  const source = new EventSource(`/api/concerts/${concertId}/stream`);
+  // Try real SSE first
+  let source = null;
+  let usingDemo = false;
+  let demoUnsub = null;
 
-  source.addEventListener('piece_change', (e) => {
-    onEvent({ type: 'piece_change', ...JSON.parse(e.data) });
-  });
+  try {
+    source = new EventSource(`/api/concerts/${concertId}/stream`);
 
-  source.addEventListener('status_change', (e) => {
-    onEvent({ type: 'status_change', ...JSON.parse(e.data) });
-  });
+    source.addEventListener('piece_change', (e) => {
+      onEvent({ type: 'piece_change', ...JSON.parse(e.data) });
+    });
+    source.addEventListener('status_change', (e) => {
+      onEvent({ type: 'status_change', ...JSON.parse(e.data) });
+    });
+    source.addEventListener('heartbeat', () => {});
 
-  source.addEventListener('heartbeat', () => {
-    // Keep-alive, no action needed
-  });
+    // If the SSE endpoint doesn't exist (static deployment), fall back to demo bus
+    source.onerror = () => {
+      if (!usingDemo && source.readyState === EventSource.CLOSED) {
+        usingDemo = true;
+        source.close();
+        demoUnsub = subscribeDemo(onEvent);
+      }
+    };
+  } catch {
+    usingDemo = true;
+    demoUnsub = subscribeDemo(onEvent);
+  }
 
-  source.onerror = () => {
-    // EventSource auto-reconnects; we just log it
-    console.log('SSE connection lost, reconnecting...');
+  // Always also listen to demo bus so cross-tab works in demo mode
+  if (!usingDemo) {
+    demoUnsub = subscribeDemo(onEvent);
+  }
+
+  return () => {
+    if (source) source.close();
+    if (demoUnsub) demoUnsub();
   };
-
-  return () => source.close();
 }
